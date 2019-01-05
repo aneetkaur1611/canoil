@@ -1,0 +1,115 @@
+/*--custom responsive css starts here---*/
+
+@media(max-width:1800px) {
+	.leftredtriangle {
+		left: -200px;
+		width: 100px;
+		margin-top: -50px;
+	}
+}
+
+@media(max-width:1500px) {
+	.intro-section .leftredtriangle {
+		display: none
+	}
+}
+
+@media(max-width:1024px) {}
+
+@media(max-width:991px) {}
+
+@media(min-width:768px) and (max-width:900px) {}
+
+@media(max-width:900px) {}
+
+@media(max-width:767px) {
+	.develop-section .headbox:hover img {
+		animation-iteration-count: 2;
+	}
+	.section {
+		padding: 50px 0px;
+	}
+	.lighttriangle,
+	.leftredtriangle {
+		display: none;
+	}
+	.intro-section .introtext {
+		max-width: 100%;
+		padding-bottom: 100px
+	}
+	.intro-section {
+		background-position: center bottom;
+		background-size: auto 20%
+	}
+	.widget-title {
+		font-size: 40px
+	}
+	.mission-section:before {
+		top: auto;
+		height: 50%;
+		width: 100%;
+	}
+	.mission-section .textbox {
+		padding: 30px 0 20px;
+	}
+	.mission-section .valuetext {
+		text-align: left;
+		background: #c7261e;
+		position: relative;
+		z-index: 1;
+	}
+	.mission-section .valuetext:before {
+		content: "";
+		left: -15px;
+		right: -15px;
+		background: #c7261e;
+		top: 0;
+		height: 50%;
+		position: absolute;
+		z-index: -1
+	}
+	.mission-section .mission-valueimg {
+		position: static;height: auto
+	}
+	.mission-section .mission-valueimg img {
+		height: auto;
+	}
+	.section.mission-section {
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+	.sitelogo {
+		max-width: 300px;
+		margin: 0 auto;
+		padding: 0 30px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%)
+	}
+	.sitelogo img {
+		width: auto
+	}
+	body {
+		font-size: 14px
+	}
+	.tagline {
+		font-size: 16px;
+	}
+	.sub-heading {
+		font-size: 26px;
+	}
+}
+
+@media(max-width:600px) {}
+
+@media(max-width:500px) {
+	.intro-section {
+		background-size: auto 13%;
+	}
+}
+
+@media(max-width:470px) {}
+
+@media(max-width:420px) {}
